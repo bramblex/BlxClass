@@ -25,6 +25,15 @@ var ClassA = Class('ClassA', Object);
 </script>
 ```
 
+###3. 用RequireJS加载
+BlxClass 同时也符合AMD规范，可以用RequireJS加载
+
+```JavaScript
+require(['path/to/Class.js'], function(Class){
+    var ClassA = Class('ClassA', Object);
+});
+```
+
 ##API
 
 ###1.  Class( class\_name, parent\_class)
