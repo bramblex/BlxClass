@@ -1,5 +1,8 @@
 #BlxClass
 
+##GitHub
+[https://github.com/bramblex/BlxClass](https://github.com/bramblex/BlxClass)
+
 ##简介
 一个JavaScript面对对象的库，让你在JavaScript用上靠谱的面对对象特性。
 
