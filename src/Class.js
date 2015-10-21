@@ -106,7 +106,6 @@ define(function(){
     child.extend = extend;
     child.alias = alias;
     child.uper = uper;
-    child.name = name;
 
     child.method('constructor', function(){
       if (child.uper('constructor'))
