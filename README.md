@@ -4,6 +4,7 @@
 一个JavaScript面对对象的库，让你在JavaScript用上靠谱的面对对象特性。
 
 ##使用
+将本项目中的 ```dist/Class.js``` 复制到你的项目下
 
 ###1. 在nodejs中使用
 
