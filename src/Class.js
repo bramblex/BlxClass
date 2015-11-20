@@ -15,6 +15,10 @@ define(['./Utils'], function(Utils){
       var func = arguments[2];
       var argc = '*';
     }
+    else if (typeof arguments[1] === 'number' && typeof arguments[2] === 'function'){
+      var func = arguments[2];
+      var argc = arguments[1];
+    }
     else {
       throw new Error('Define method Error!');
     }
